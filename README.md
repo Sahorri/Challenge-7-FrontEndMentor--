@@ -2,10 +2,36 @@
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
-## The challenge
+## Le Challenge
 
-Your challenge is to build out this 3-column preview card component and get it looking as close to the design as possible.
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-Your users should be able to:
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+Les utilisateurs doivent être capables de :
+- Voir une mise en page correcte en fonction de la taille de leur écran
+- Voir les états de surbrillance des éléments intéractifs
+
+## Projet construit avec
+
+- HTML5
+- CSS3
+- Flexbox CSS
+- Media Queries pour le Responsive
+- Reset CSS (margin et padding)
+
+## Processus
+
+Pas de difficulté particulière.
+Projet réalisé en 1h30.
+J'ai pratiqué cette fois une approche "Mobile First".
+
+## Ce que j'ai appris ...
+
+- Perfectionner mon apprentissage de CSS Flexbox
+- Travail des media queries pour rendre mon site Responsive
+
+## Ce que je dois encore travailler ...
+
+- Media Queries
+
+## Auteur
+
+Frontend Mentor - @Sahorri
+GitHub- @Sahorri
