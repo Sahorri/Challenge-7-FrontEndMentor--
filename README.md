@@ -33,5 +33,5 @@ J'ai pratiqué cette fois une approche "Mobile First".
 
 ## Auteur
 
-Frontend Mentor - @Sahorri
-GitHub- @Sahorri
+- Frontend Mentor - @Sahorri
+- GitHub- @Sahorri
