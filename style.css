@@ -1,0 +1,146 @@
+/** CSS RESETS **/
+
+/* 1. Reset margin/padding + Border-Box Model */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Améliorer le rendu du texte */
+
+body {
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 3. Améliorer les média par défaut car (img = par défaut inline) => Responsive */
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 4. Supprimer le style de typo de base */
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* 5. Eviter l'overflow des textes même avec des petites viewport */
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/** GENERAL CSS **/
+
+body {
+    background-color: white;
+    font-size: 0.875rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.80rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.card__section1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.5rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.card__section2 {
+    background-color:hsl(184, 100%, 22%);
+    padding: 2.5rem;
+}
+
+.card__section3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.5rem;
+    border-radius: 0 0 10px 10px;
+}
+
+/** CSS BUTTONS + HOVER **/
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 0.75rem;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-top: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #11ffee00;
+    border: 2px solid white;
+}
+
+.color1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.color2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.color3 {
+    color: hsl(179, 100%, 13%);
+}
+
+/** MEDIA QUERIES **/
+
+@media screen and (min-width:600px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+        max-width: 55rem;
+    }  
+
+    .button {
+        margin-top: 5rem;
+        font-size: 0.9rem;
+        padding: 10px 30px;
+        border-radius: 30px;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    .card__section1 {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card__section3 {
+        border-radius: 0 10px 10px 0;
+    }
+}
